@@ -28,7 +28,7 @@ api = genius.Genius(genius_token)
 
 
 import spacy
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en')
 
 #Constants:
 ordered_str_keys = ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B']
