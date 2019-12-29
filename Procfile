@@ -1,1 +1,1 @@
-web: gunicorn thinkfulfinalcapstone.wsgi --log-file -
+web: gunicorn app.py --log-file -
