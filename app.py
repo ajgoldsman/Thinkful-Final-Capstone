@@ -16,14 +16,14 @@ warnings.filterwarnings('ignore')
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials #To access authorised Spotify data
 
-client_id = '88ea7b34d3cb422193552956b5668c55'
-client_secret = '60e85b9e559a4eaca1e2de6ca1d9dd42'
+client_id = '###############################'
+client_secret = '##############################'
 
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) #spotify object to access API
 
 import lyricsgenius as genius
-genius_token = 'A4WgAMQRzJCbqvs-yEzRUaeODpiURx6QdYWjSjGiAnxIr4QoCmPAAzpxu1MlDrFY'
+genius_token = '#################################################################'
 api = genius.Genius(genius_token)
 
 
