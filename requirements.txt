@@ -19,7 +19,7 @@ sklearn==0.0
 spotipy==2.4.4
 statsmodels==0.10.1
 tqdm==4.36.1
-urllib3==1.24.2
+urllib3==1.26.5
 WTForms==2.2.1
 gunicorn
 spacy>=2.2.0,<3.0.0
